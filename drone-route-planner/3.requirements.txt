@@ -1,0 +1,4 @@
+pandas>=1.5.0
+folium>=0.14.0
+ortools>=9.7
+Python >=3.9
