@@ -33,12 +33,15 @@
 ---
 
 ## ⚙️ 환경 설정
-- Google colad
-- 필요 라이브러리:
-  ```
-  csv
-  pandas
-  folium
-  ortools
-  
+Python 3.x
+필요 라이브러리: csv(내장), pandas, folium, ortools
+💻 Google Colab에서 실행하기
+
+Colab에서는 별도 환경 설정 없이 다음을 먼저 실행하면 됩니다:
+
+!pip install pandas folium ortools
+
+
+그 후 main.py 코드를 Colab 셀에 붙여 넣고 실행하면 동일하게 동작합니다.
+출력된 지도(tsp_map.html)는 Colab 파일 브라우저에서 다운로드 후 웹 브라우저에서 확인할 수 있습니다.
 
