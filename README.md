@@ -33,12 +33,12 @@
 ---
 
 ## ⚙️ 환경 설정
-- Python 3.x
+- Google colad
 - 필요 라이브러리:
   ```
   csv
   pandas
   folium
   ortools
-
+  
 
