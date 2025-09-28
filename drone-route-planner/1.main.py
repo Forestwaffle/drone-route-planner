@@ -118,7 +118,11 @@ def plan_drone_routes(locations, names, distances):
     heapq.heapify(pq)
 
     # 일반 배달 (용량 단위로 묶어서)
-    while unvisited and pq:
+    while True:
+        if not unvisited:
+            break
+        if not pq:
+            break
         avail_time, drone = heapq.heappop(pq)
         if drone_trips[drone] >= MAX_TRIPS:
             continue
@@ -232,3 +236,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
